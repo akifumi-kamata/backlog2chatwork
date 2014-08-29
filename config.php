@@ -1,0 +1,37 @@
+<?php
+
+$configs = array();
+
+$key = "group1";
+
+//backlog‚ÌÝ’è
+$configs[$key]['backlog']['url']  = 'YOUR_BACKLOG_SUBDOMAIN.backlog.jp';
+$configs[$key]['backlog']['user'] = 'BACKLOG_USERNAME';
+$configs[$key]['backlog']['pass'] = 'BACKLOG_PASSWORD';
+
+//chatwork‚ÌÝ’è
+$configs[$key]['chatwork']['apikey'] = 'YOUR_APIKEY';
+$configs[$key]['chatwork']['roomid'] = 'CHATWORK_ROOMID';
+
+
+// •¡”‚ÌƒAƒJƒEƒ“ƒg‚Å‰^—p‚·‚éê‡‚Íkey‚ð•Ê–¼‚Æ‚µ‚Ä•¡”“o˜^‚µ‚Ü‚·B
+/*
+$key = "group2";
+
+//backlog‚ÌÝ’è
+$configs[$key]['backlog']['url']  = 'YOUR_BACKLOG_SUBDOMAIN.backlog.jp';
+$configs[$key]['backlog']['user'] = 'BACKLOG_USERNAME2';
+$configs[$key]['backlog']['pass'] = 'BACKLOG_PASSWORD2';
+
+//chatwork‚ÌÝ’è
+$configs[$key]['chatwork']['apikey'] = 'YOUR_APIKEY';
+$configs[$key]['chatwork']['roomid'] = 'CHATWORK_ROOMID';
+
+
+*/
+
+//---------------------------------------
+unset($key);
+
+
+
